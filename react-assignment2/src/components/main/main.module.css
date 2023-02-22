@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width:70%;
+  margin:0 auto;
+  margin-top: 100px;
+}
+.latestPostsDiv {
+  font-size: 16px;
+}
+.latestPostsDiv h3{
+  font-size:24px;
+  margin-bottom: 20px;
+}
+
+.filterSection {
+  font-size: 16px;
+}
+.filterIcon svg{
+  color:#0084ff;
+}
+.filterHeading{
+  margin-bottom: 20px;
+}
+.filterHeading span{
+  font-size:14px;
+  font-weight: 600;
+  margin: 0px 10px 0px 0px;
+}
+.filterCategories {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category {
+  display: inline-block;
+  padding: 6px 14px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  background-color: aliceblue;
+  transition: all 0.2s;
+}
+.active {
+  background-color: #0084ff;
+  color:white;
+}
+.category:hover {
+  border:1.1px solid #0084ff;
+  box-shadow:0px 2px 2px 0px #0084ff;
+  transform: scale(1.075);
+}
+.blogSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+.blogPost {
+  width: 31%;
+  min-width: 275px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  border-radius: 5px;
+  margin: 5px 15px 25px 0px;
+  cursor: pointer;
+}
+.blogPost:hover{
+    width: 31%;
+    min-width: 275px;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.blogImgDiv {
+  width: 100%;
+  height: 185px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.blogImgDiv img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.blogDetails{
+  padding:5px 10px;
+}
+.blogHeading{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    margin:10px;
+    height:40px;
+}
+.blogAuthorSection{
+    padding-top: 4px;
+    padding-left: 15px;
+}
+.author{
+    color: #0096ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.blogDate{
+    color:rgb(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.blogDescription{
+    padding:10px 10px 15px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color:rgb(0,0,0,0.6);
+    text-align: justify;
+}
+.blogDescriptionEllipses{
+  font-size:14px;
+}
